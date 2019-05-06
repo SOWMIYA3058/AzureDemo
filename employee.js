@@ -10,6 +10,8 @@
         contentType: "application/json; charset=utf-8",
         datatype: "jsondata",
         async: "true",
+        
+        
         success: function (responseFromServer)
         {
             alert(responseFromServer.d)
